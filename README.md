@@ -166,6 +166,7 @@ The pipeline supports the following optimization algorithms:
 1. **AMGD (Adaptive Momentum Gradient Descent)**:
    - Combines momentum with adaptive learning rates for faster convergence.
    - Supports L1 and ElasticNet regularization.
+   - Uses adaptive soft-thresholding
 
 2. **Adam**:
    - A popular optimization algorithm that uses adaptive learning rates and momentum.
