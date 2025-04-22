@@ -249,6 +249,27 @@ For major changes, please open an issue first to discuss the proposed changes.
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
+## Citation
+
+If you use this project or the associated dataset in your research or work, please cite them as follows:
+
+### For the AMGD Poisson Regression Project:
+```bibtex
+@misc{bakari2025amgdpoisson,
+  author = {Ibrahim Bakari},
+  title = {Adaptive Momentum Gradient Descent},
+  year = {2025},
+  publisher = {GitHub},
+  url = {https://github.com/elbakari01/amgd-Poisson-regression}
+}
+
+@misc{kaggle_ecological_health_dataset,
+  author = {Laoshi},
+  title = {Ecological Health Dataset},
+  year = {2014},
+  publisher = {Kaggle},
+  url = {https://www.kaggle.com/datasets/datasetengineer/ecological-health-dataset}
+}
 
 ## Acknowledgments
 
