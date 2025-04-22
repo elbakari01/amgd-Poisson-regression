@@ -185,7 +185,6 @@ The pipeline supports the following optimization algorithms:
 The pipeline includes statistical significance analysis to evaluate the performance of different optimizers. Key components include:
 
 - **Bootstrap Confidence Intervals**: Estimates the variability of performance metrics across multiple runs.
-- **Paired t-Tests**: Compares the performance of optimizers using paired t-tests.
 - **Effect Size**: Measures the magnitude of differences between optimizers.
 
 ---
