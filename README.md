@@ -53,16 +53,6 @@ The algorithm is validated on a large-scale ecological health dataset, demonstra
 
 The dataset used in this project is sourced from Kaggle and is designed for the classification of ecological health in urban environments. It consists of hourly data generated from January 1, 2018, to December 31, 2024, simulating various environmental parameters that affect ecological health.
 
-If you use this dataset, please cite it as follows:
-
-```bibtex
-@misc{kaggle_ecological_health_dataset,
-  author = {Laoshi},
-  title = {Ecological Health Dataset},
-  year = {2014},
-  publisher = {Kaggle},
-  url = {https://www.kaggle.com/datasets/datasetengineer/ecological-health-dataset}
-}
 
 ### Features
 - **Timestamp**: Date and time of observations (hourly intervals).
@@ -269,7 +259,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## Citation
 
-If you use this project in your research or work, please cite it as follows:
+If you use this project or data set in your research or work, please cite them as follows:
 
 ```bibtex
 @misc{bakari2025amgdpoisson,
@@ -279,3 +269,14 @@ If you use this project in your research or work, please cite it as follows:
   publisher = {GitHub},
   url = {https://github.com/elbakari01/amgd-Poisson-regression}
 }
+
+@misc{kaggle_ecological_health_dataset,
+  author = {Laoshi},
+  title = {Ecological Health Dataset},
+  year = {2014},
+  publisher = {Kaggle},
+  url = {https://www.kaggle.com/datasets/datasetengineer/ecological-health-dataset}
+}
+
+
+
