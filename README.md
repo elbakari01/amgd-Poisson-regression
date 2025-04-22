@@ -53,6 +53,17 @@ The algorithm is validated on a large-scale ecological health dataset, demonstra
 
 The dataset used in this project is sourced from Kaggle and is designed for the classification of ecological health in urban environments. It consists of hourly data generated from January 1, 2018, to December 31, 2024, simulating various environmental parameters that affect ecological health.
 
+If you use this dataset, please cite it as follows:
+
+```bibtex
+@misc{kaggle_ecological_health_dataset,
+  author = {Laoshi},
+  title = {Ecological Health Dataset},
+  year = {2014},
+  publisher = {Kaggle},
+  url = {https://www.kaggle.com/datasets/datasetengineer/ecological-health-dataset}
+}
+
 ### Features
 - **Timestamp**: Date and time of observations (hourly intervals).
 - **PM2.5**: Concentration of particulate matter (PM2.5) in the air.
@@ -248,12 +259,18 @@ For major changes, please open an issue first to discuss the proposed changes.
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
+
 ---
+## Acknowledgments
+
+- Inspired by research on Poisson regression and ecological modeling.
+- Built using Python and popular libraries such as `scikit-learn`, `numpy`, and `matplotlib`.
+- Thanks to the open-source community for their contributions and support.
+
 ## Citation
 
-If you use this project or the associated dataset in your research or work, please cite them as follows:
+If you use this project in your research or work, please cite it as follows:
 
-### For the AMGD Poisson Regression Project:
 ```bibtex
 @misc{bakari2025amgdpoisson,
   author = {Ibrahim Bakari},
@@ -262,18 +279,3 @@ If you use this project or the associated dataset in your research or work, plea
   publisher = {GitHub},
   url = {https://github.com/elbakari01/amgd-Poisson-regression}
 }
-
-@misc{kaggle_ecological_health_dataset,
-  author = {Laoshi},
-  title = {Ecological Health Dataset},
-  year = {2014},
-  publisher = {Kaggle},
-  url = {https://www.kaggle.com/datasets/datasetengineer/ecological-health-dataset}
-}
-
-## Acknowledgments
-
-- Inspired by research on Poisson regression and ecological modeling.
-- Built using Python and popular libraries such as `scikit-learn`, `numpy`, and `matplotlib`.
-- Thanks to the open-source community for their contributions and support.
-
